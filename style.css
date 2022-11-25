@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+button{
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 8px;
+    background: orange;
+    border-radius: 4px;
+
+}
+
+.confirmed{
+    color: white;
+    background-color: green;
+}
